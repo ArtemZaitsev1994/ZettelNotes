@@ -1,0 +1,80 @@
+{
+  "main": {
+    "id": "984bbabfe8fe4eb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c7a07edf75df676",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "023e4b99ce9cd06a",
+    "type": "split",
+    "children": [
+      {
+        "id": "270ba319a8a6ddbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c960f7fc0dbd0d06",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "64a2001935808c7a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "267fe99ff2596c7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d16583d55b66df80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3884d0b6a805f76",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Архитектура, проектирование/Паттерны проектирования/FaaS, function as a service/Untitled.md",
+    "Архитектура, проектирование/Паттерны проектирования/FaaS, function as a service/FaaS, function as a service.md",
+    "Архитектура, проектирование/Паттерны проектирования/Многоузловые/Faas, function as a service.md",
+    "Архитектура, проектирование/Паттерны проектирования/Многоузловые/Untitled.md",
+    "Архитектура, проектирование/Принципы проектирования/SQRS/Untitled.md"
+  ]
+}
