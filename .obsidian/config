@@ -10,6 +10,6 @@
     "markdown-importer": true,
     "word-count": true
   },
-  "promptDelete": true,
+  "promptDelete": false,
   "alwaysUpdateLinks": true
 }
