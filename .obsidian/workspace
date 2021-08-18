@@ -6,13 +6,9 @@
       {
         "id": "8e0b11d52326186f",
         "type": "leaf",
-        "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Сеть/HTTP/Заголовки.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "|"
+                "query": "шаблон ка",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -64,7 +65,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Сеть/HTTP/Заголовки.md"
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -75,16 +82,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "8e0b11d52326186f",
   "lastOpenFiles": [
-    "Сеть/HTTP/Заголовки.md",
-    "Сеть/HTTP/CQRS.md",
-    "Сеть/HTTP/Untitled.md",
-    "Сеть/Untitled.md",
-    "Базы данных/BASE.md",
-    "Базы данных/OLTP и OLAP.md",
-    "Базы данных/Нормализация/Нормализация.md",
-    "Архитектура, проектирование/Паттерны проектирования/Управляемая событиями архитектура.md",
-    "Архитектура, проектирование/Паттерны проектирования/Untitled.md",
-    "Программирование/MVC.md"
+    "Архитектура, проектирование/сетевые запросы/Переотправка запросов (Retry pattern).md",
+    "Архитектура, проектирование/сетевые запросы/Контроль выполнения запросов.md",
+    "Архитектура, проектирование/сетевые запросы/Idempotency Key.md",
+    "Архитектура, проектирование/сетевые запросы/Untitled.md",
+    "Архитектура, проектирование/Распределенные системы/CAP и другие теоремы/PACELC.md",
+    "SRE/SRE.md",
+    "SRE/SoftSkills.md",
+    "SRE/Сопровождаемость (Maintainability).md",
+    "SRE/Советы.md",
+    "SRE/Масштабируемость (Scalability).md"
   ]
 }

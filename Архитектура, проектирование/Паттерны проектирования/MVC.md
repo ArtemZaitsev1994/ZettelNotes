@@ -1,4 +1,4 @@
-Паттерн проектирования сестем. Model View Controller - MVC
+Паттерн проектирования систем. Model View Controller - MVC
 
 Model - объект приложения.
 View - представление объекта.
