@@ -1,0 +1,63 @@
+# Распределенная очеред сообщений
+Из этого курса https://www.youtube.com/watch?v=FU4WlwfS3G0&ab_channel=SystemDesignInterview
+
+## Требования
+### функциональные требования
+ - allowRequest(request)
+
+### нефункциональные требования
+ - accurate
+ - low latency
+ - scalable
+
+## Компоненты
+![[rate limiter.png]]
+1. Client Identifier Builder - определяем к какому типу относится реквест, чтобы потом можно было его сматчить с правилами.
+2. Rate limiter - матчит request с правилами и смотрит на то, проходим ли мы по этим правилам, или нет.
+3.  Throttle Rule Cache - хранит правила, выгруженные из базы.
+4.  Throttle Rule Retriever - переодически ходит в базу с правилами и обновляет Throttle Rule Cache.
+5.  Request Processor - процессит сам реквест.
+6.  Rule Service - [[Db Service]]
+7.  Queue - очередь в которую можно сложить запросы для дальнейшей обработки.
+
+## Детальная проработка отдельных частей
+Будем использовать Token Bucket Algorithm. Смысл следующий: у нас есть какое-то количество токенов и каждый из реквестов расходует один токен. Эти токены обновляются с течением времени. Обновляем каждый раз, когда проверяем доступ, примерный код ниже.
+```
+import time
+
+
+class TokenBucket:
+	def __init__(self, max_bucket_size: int, refill_rate: int):
+		self.max_bucket_size = max_bucket_size
+		self.refill_rate = refill_rate
+		self.current_bucket_size = self.max_bucket_size
+		self.last_refile_time = time.time_ns()
+		
+	def allow_request(self, tokens: Optional[int] = None):
+		self.refill()
+		
+		tokens = tokens or 1
+		if tokens > self.current_bucket_size:
+			return False
+		
+		self.current_bucket_size -= tokens
+		return True
+	
+	def refill(self):
+		now = time.time_ns()
+		delta = (now - self.last_refile_time)
+		tokens_add = delta * self.refill_rate / 1e9
+		self.current_bucket_size = min(self.current_bucket_size, tokens_add)
+		self.last_refile_time = now
+```
+
+Таким образом мы можем даже корректировать "цену" запроса, передавая параметр tokens.
+
+Этот вариант подойдет для одной машины, если надо распределенную систему, тогда надо думать как шарить данные. 
+![[Общение между сервисами.png]]
+
+1. Каждый сервис сообщает каждому, что он поменял данные.я Очень плохо. 
+2. Gossip протокол, каждый по цепочке рассказывает о том, что произошло. Мне не нравится.
+3. Распределенный кеш где-нибудь в Redis. Больше всего нравится, но здесь желательно что-то придумать с атомарностью, например скрипт на lua.
+4. Систему [Master-Slave](Репликация#Master-Slave), но не понимаю этой штуки, если все обращения у нас по идее операции на запись и нет чтения. Или тут речь про шардирование? непонял
+5. Тут вообще тему не раскрыли и я нифига не понял(
