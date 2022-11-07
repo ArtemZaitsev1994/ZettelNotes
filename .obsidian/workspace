@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "984bbabfe8fe4eb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5055162b58c97939",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DevOps/Kubernetes/deploy.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "023e4b99ce9cd06a",
+    "type": "split",
+    "children": [
+      {
+        "id": "270ba319a8a6ddbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c960f7fc0dbd0d06",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "64a2001935808c7a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "генера",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277
+  },
+  "right": {
+    "id": "267fe99ff2596c7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d16583d55b66df80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3884d0b6a805f76",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DevOps/Kubernetes/deploy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5055162b58c97939",
+  "lastOpenFiles": [
+    "EventStorming/Примерный план.md",
+    "EventStorming/event storming.md",
+    "DevOps/Kubernetes/replica-set.md",
+    "что почитать, с чем разобраться.md",
+    "DevOps/Kubernetes/deploy.md",
+    "Программирование/ООП/Конструкторы.md",
+    "Программирование/ООП/Класс.md",
+    "Программирование/ООП/Инкапсуляция.md",
+    "Программирование/ООП/Агрегация и композиция.md",
+    "Железо/Восстановление данных с диска.md"
+  ]
+}

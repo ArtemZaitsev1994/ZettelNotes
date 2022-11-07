@@ -23,7 +23,7 @@
 	- If our Notification service API allows a more sophisticated message validation/filtering logic, we may also store these attributes in Metadata service and do some of these activities in the FrontEnd service. There are pros and cons for this as well, as we do not want to overload FrontEnd with "too much" logic. 
 	- From operability standpoint it also might be preferable that only one component (FrontEnd) talks to Metadata service for all the operations (createTopic, subscribe, publish, etc.).
 ```
-3.  Metadata Service - имплементация [фасада](Ambassador) перед доступом в базу. Предполагается что будет кешировать запросы и может быть зашардирован. [[Шардирование]]
+3.  Metadata Service - имплементация [фасада](Ambassador.md) перед доступом в базу. Предполагается что будет кешировать запросы и может быть зашардирован. [[Шардирование]]
 4.  Temporary Storage - база данных, которая будет хранить оповещения короткое время, пока мы их не отправим пользователю. База должна быть scalable, partition tolerant и high available. Здесь не нужны транзакции, связи и хранение данных для BI, WH, statistics. Выбор: Cassandra, Amazon DynamoDB
 5.  Sender - в разных потоках шерстит temporary storage на наличие новых оповещений. Ходит в MS для получения актуальной информации "кому слать". Шлет сообщения.
 ![[sender notifications.png]]

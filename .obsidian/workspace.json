@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "984bbabfe8fe4eb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bec8f2453859430d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0f53ec9f9a4e82a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/volumes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "023e4b99ce9cd06a",
+    "type": "split",
+    "children": [
+      {
+        "id": "270ba319a8a6ddbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c960f7fc0dbd0d06",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "64a2001935808c7a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "4 вида",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277
+  },
+  "right": {
+    "id": "267fe99ff2596c7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d16583d55b66df80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3884d0b6a805f76",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DevOps/Kubernetes/volumes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e0f53ec9f9a4e82a",
+  "lastOpenFiles": [
+    "DevOps/Kubernetes/envs.md",
+    "DevOps/Kubernetes/команды.md",
+    "Операционные системы/Выполнение команд в процессоре.md",
+    "DevOps/Kubernetes/volumes.md",
+    "DevOps/Kubernetes/абстракции/secrets.md",
+    "DevOps/Kubernetes/абстракции/resources.md",
+    "DevOps/Kubernetes/абстракции/replica-set.md",
+    "DevOps/Kubernetes/абстракции/pod.md",
+    "DevOps/Kubernetes/абстракции/deploy.md",
+    "DevOps/Kubernetes/абстракции/configmap.md"
+  ]
+}
