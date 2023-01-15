@@ -13,6 +13,306 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Архитектура, проектирование/Распределенные системы/Репликация.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1452ee109822df23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/volumes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "efe7c045c89b73d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/Health Check.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "429d10e91f572129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/Публикация приложения (services).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed00e53b2f0191a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/кластер кубера.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f45e0924fdbd7c2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/Jobs (жобы).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eef743d9d5212300",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/абстракции/деплоймент/deploy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aec7a9a13a83f394",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/абстракции/деплоймент/Альтернативы для разных нужд.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a674e27535f3e613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/абстракции/деплоймент/Альтернативы для разных нужд.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ea25620fbdcd770",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/безопасность/Авторизация.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13b598926c28d0ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/безопасность/RBAC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdc331a94d1aa755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/безопасность/PodSecurityPolicy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a3c3d629532e9e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/команды.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a3ee34504d558c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/Публикация приложения (services).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f0ddf66fbd70d78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/команды.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0988f9b7d5fd48c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/DevOps практики.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b32ad621c17c521",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Способы построения.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54794192e8d2cd53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/DevOps практики.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab180a3b44e4ddc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Kubernetes/команды.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65a589287300fc4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Management/Ускоряйся! Наука DevOps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f970e17c4da633ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Собеседы/System Design Interviews/задачи/Notifications service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b04ec79c0560ee14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Собеседы/System Design Interviews/шаги/Расчет нагрузки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b533947f23d10ef1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Собеседы/System Design Interviews/шаги/Выбор БД.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd6e3fcecc4c6097",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Архитектура, проектирование/Event-Driven architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab26e2b8eafe835c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Архитектура, проектирование/Кэш/Кэш.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c34e6bde38a6ea78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "DevOps/Kubernetes/volumes.md",
                 "mode": "source",
                 "source": false
@@ -48,7 +348,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "4 вида",
+                "query": "асинх",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +377,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Kubernetes/volumes.md",
+                "file": "Архитектура, проектирование/Распределенные системы/Репликация.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +395,26 @@
     "width": 300,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
   "active": "e0f53ec9f9a4e82a",
   "lastOpenFiles": [
-    "DevOps/Kubernetes/envs.md",
-    "DevOps/Kubernetes/команды.md",
-    "Операционные системы/Выполнение команд в процессоре.md",
-    "DevOps/Kubernetes/volumes.md",
-    "DevOps/Kubernetes/абстракции/secrets.md",
-    "DevOps/Kubernetes/абстракции/resources.md",
-    "DevOps/Kubernetes/абстракции/replica-set.md",
-    "DevOps/Kubernetes/абстракции/pod.md",
-    "DevOps/Kubernetes/абстракции/deploy.md",
-    "DevOps/Kubernetes/абстракции/configmap.md"
+    "Архитектура, проектирование/Распределенные системы/Отложенные задачи.md",
+    "Архитектура, проектирование/Распределенные системы/Обнаружение сервисов.md",
+    "Архитектура, проектирование/Распределенные системы/общение между сервисами/очереди.md",
+    "Архитектура, проектирование/Распределенные системы/общение между сервисами/Контроль выполнения запросов.md",
+    "Архитектура, проектирование/Event Driven Architecture/Выбор брокера сообщений.md",
+    "Архитектура, проектирование/Распределенные системы/Шардирование.md",
+    "Архитектура, проектирование/Распределенные системы/Репликация.md",
+    "Архитектура, проектирование/Распределенные системы/CAP и другие теоремы/PACELC.md",
+    "Python/асинхронщина/asyncio.md",
+    "Собеседы/System Design Interviews/задачи/Rate Limiting.md"
   ]
 }
